@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,rgb(55, 55, 235),rgb(94, 240, 94));
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+}
+.container{
+    height: 420px;
+    width: 400px;
+    background: linear-gradient(30deg,rgb(215, 104, 56),rgb(170, 254, 54));
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container button{
+    font-size: 64px;
+    height: 120px;
+    width: 110px;
+    margin-left: 18px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    background-color: rgb(91, 187, 198);
+}
+.reset button{
+    font-size: 35px;
+    background: grey;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.winner{
+    margin-top: 30px;
+    height: 90px;
+    font-size: 60px;
+}
+.tic{
+    font-size: 50px;
+    text-align: right;
+    margin-right: 60px;
+
+}
+
+

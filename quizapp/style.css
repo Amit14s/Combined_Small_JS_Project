@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-image: url(decorative-yellow-orange-gradient-floral-card-vector.jpg);
+}
+.day-night{
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+.box{
+    padding: 20px;
+      background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0,0,0,0,.2);
+    
+    width: 450px;
+    height: 500px;
+    display: grid;
+    border-radius: 15px;
+}
+.day{
+    position: relative;
+    opacity: 0;
+    pointer-events: none;
+    padding: 5px; 
+    color: white;
+}
+.night{
+    position: absolute;
+    opacity: 1;
+    
+
+}
+.dark{
+    .day{
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .night{
+        opacity: 0;
+        pointer-events: none;
+    }
+    background-image: url(eTgd2o2.jpg);
+    .title{
+        color: white;
+    }
+    
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.question{
+    margin-left: 30px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width:350px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.options{
+    font-size: 20px;
+    background-color: white;
+    height: 60px;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 55px;
+    padding: 20px;
+    
+
+    
+}
+
+
+
+.rad{
+    transform: scale(1.5) translateY(1px);
+    margin-right: 10px;
+
+}
+.options:hover{
+    background-color: rgb(95, 227, 24);
+}
+.btn{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 40px;
+    margin-left: 95px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: rgb(41, 41, 41);
+}
+.result{
+     font-size: 50px;
+}

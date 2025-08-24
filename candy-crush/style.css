@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:url(candy-crush-saga-the-soda-version-sxg9uzn4ewa49f2j.jpg)
+
+}
+.scor{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -100px;
+    color: rgb(11, 11, 11);
+} 
+.score{
+    padding-left: 20px;
+}  
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 450px;
+    width: 450px;
+    background: rgb(224, 210, 210);
+    display: flex;
+    flex-wrap: wrap;
+}
+.result{
+     height: 450px;
+    width: 450px;
+    background: rgb(224, 210, 210);
+    display: flex;
+    flex-wrap: wrap;
+}
+.box img{
+    height: 50px;
+    width: 50px;
+}
+.hide{
+    display: none;
+}

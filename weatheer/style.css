@@ -1,0 +1,109 @@
+
+body{
+   background:linear-gradient(45deg,rgb(70, 245, 140),blue)
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather{
+    background:linear-gradient(45deg,rgb(122, 169, 241),rgb(134, 241, 219));
+    border: 1px solid rgb(27, 27, 27,.2);
+    height:550px;
+    width: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  -5px -5px 15px  15px rgba(0, 0, 0, 0.683);
+    border : none;
+}
+
+.input-box{
+    background: rgb(131, 167, 154) ;
+    padding-left: 40px;
+    height: 70px;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 80px;
+    border: 1px solid rgb(27, 27, 27,.2);
+    border-radius: 20px;
+    font-size: 25px;
+}
+.input-box::placeholder{
+     text-align: center;
+}
+.input-search button{
+    font-size: 35px;
+    transform: translateY(4px);
+    border: 1px solid rgb(27, 27, 27,.2);
+    border-radius: 15px;
+    background: transparent;
+}
+.input-search i{
+    color: rgb(66, 66, 66);
+}
+.placename{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-left: 30px;
+}
+.temp{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 70px;
+}
+.icon{
+    transform: translateY(-9px),translateX(7px);
+    
+    margin-left: 35px;
+}
+.other{
+    display: flex;
+    font-size: 30px;
+}
+.wind{
+    margin-top: 20px;
+    margin-left:30px;
+}
+.humidity{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.nextdays{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.box{
+    background-color: rgb(131, 167, 154);
+    border: 1px solid rgb(27, 27, 27,.2);
+    border-radius: 15px;
+    height: 150px;
+    width: 120px;
+    margin-left: 10px;
+    display: grid;
+}
+.box .date{
+    text-align: center;
+    font-size: 30px;
+
+}
+.box .icon{
+    font-size: 35px;
+   transform: translateX(-5px);
+}
+.box .tempt{
+    text-align: center;
+    font-size: 30px;
+    transform: translateX(4px);
+}
+
+
+
+
+
+

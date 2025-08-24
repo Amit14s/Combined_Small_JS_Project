@@ -1,0 +1,72 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(96, 76, 76);
+   
+}
+.main{
+ display: flex;
+ flex-wrap: wrap;
+   margin-left: 20px;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(164, 64, 64);
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+
+}
+.box:hover{
+    .head{
+        background-color: rgb(52, 145, 145);
+    }
+}
+.head{
+    border-top-left-radius: 20PX;
+    border-top-right-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+}
+.head i{
+   padding: 12px;
+}
+.head i:hover{
+    font-size: 25px;
+    
+}
+.text textarea{
+   height: 300px;
+   width: 400px;
+   font-size: 30px;
+   border-end-end-radius: 20px;
+   border-bottom-left-radius: 20px;
+   background-color: rgb(52, 53, 53);
+   padding: 10px;
+   color: aliceblue;
+}
+.btn{
+   position: fixed;
+   right:100px;
+   top:20px;
+   background-color: black;
+   color: white;
+   padding: 5px;
+   font-size: 20px;
+   border-radius: 15px;
+   border: none;
+}
+.btn:hover{
+    background-color: rgb(52, 145, 145);
+   font-size:23px;
+}
